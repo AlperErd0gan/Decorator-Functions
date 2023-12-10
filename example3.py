@@ -33,6 +33,5 @@ def perfect_decorator(func):
 def print_primes():
     primes = prime_numbers()
     print_numbers(primes, "Prime")
-
-# Asal sayıları yazdır
+# Function to print primes and perfects with the help of the decorator and helper functions
 print_primes()
